@@ -132,7 +132,7 @@ class Ui_Form(QtWidgets.QWidget):
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    ui = Ui_Form("2a02:908:1c46:c100:ddde:aec7:f6fa:aa8", 54537, "2a02:908:1c46:c100:ddde:aec7:f6fa:aa8", 54536) #::1, 2a02:908:1c46:c100:ddde:aec7:f6fa:aa8
+    ui = Ui_Form("::1", 54537, "::1", 54536) #::1
     ui.show()
     ui.start_recver()
     ui.start_sender()
